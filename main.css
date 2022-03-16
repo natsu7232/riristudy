@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body{
+  width: 100%;
+  min-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #FFFAF0;
+}
+.main{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1{
+  text-align: center;
+  color: orange;
+  font-size: 70px;
+}
+header h1::after{
+  content: '〜お金の学び〜';
+  display: block;
+  font-size: 20px;
+}
+
+
+h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  margin-top: 30px;
+}
+h3{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+}
+h4{
+  font-size: 35px;
+  color: orange;
+  text-align: center;
+}
+.item-name{
+  font-size: 40px;
+  color: rgb(253, 212, 136);
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  width: 400px;
+  border-radius: 20%;
+}
+
+.shop-item{
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+footer{
+  text-align: center;
+  color: orange;
+  height: 100px;
+  background-color: rgba(241, 162, 44, 0.562);
+}
+footer h3{
+  font-size: 40px;
+}
+footer p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
