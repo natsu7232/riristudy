@@ -15,7 +15,7 @@
     <?php include "header.html"?>
     <div calss="main">
       <div class="curry-main">
-      <h2>おかいものメモを思い出してかいものしてね</h2>
+      <h2>おかいものメモを<span class="br"></span>思い出してかいものしてね</h2>
         
         <div class="shop-items">
           <form method="post" action="friedVegetablesA.php">

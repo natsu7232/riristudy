@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap');
 
+
+@media screen and (min-width:780px) {
+  .shop-item{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  h2{
+    font-size: 40px;
+  }
+
+}
+@media screen and (max-width:780px) {
+  .shop-item{
+    padding: 20px;
+    margin: 20px 0;
+  }
+  .br::before {
+    content: "\A" ;
+    white-space: pre ;
+  }
+  h2{
+    font-size: 30px;
+  }
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -23,20 +50,22 @@ h1{
 
 
 h2{
-  font-size: 50px;
   color: orange;
   text-align: center;
   margin-top: 30px;
+  white-space: nowrap;
 }
 h3{
   font-size: 50px;
   color: orange;
   text-align: center;
+  white-space: nowrap;
 }
 h4{
   font-size: 35px;
   color: orange;
   text-align: center;
+  white-space: nowrap;
 }
 a{
   text-decoration: none;
@@ -44,7 +73,8 @@ a{
 img{
   width: 100%;
   border-radius: 20%;
-  max-width: 500px;
+  max-width: 400px;
+  min-width: 300px;
 }
 
 .interval{
@@ -57,12 +87,12 @@ img{
   margin: 20px 0;
   
 }
-.shop-item{
+/* .shop-item{
   display: inline-block;
   width: 40%;
   padding: 20px;
   margin: 20px 0;
-}
+} */
 
 footer{
   text-align: center;
@@ -72,4 +102,8 @@ footer{
 }
 footer h3{
   font-size: 40px;
+}
+footer p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }

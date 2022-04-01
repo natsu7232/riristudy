@@ -16,28 +16,28 @@
     <?php include "header.html"?>
     <div class="container text-center">
       <h2>今日のごはんは?</h2>
-      <div class="row text-center interval">
+      <div class="row text-center">
         <div class="col-md-6">
           <a href="curry.php">
-            <img  src="./image/23329407_s.jpg" alt="">
+            <img  src="./image/curry.jpg" alt="">
             <h5 class="item-name">カレーライス</h5>
           </a>
         </div>
         <div class="col-md-6">
           <a href="makizushiQ.php" >
-            <img  src="./image/5154577_s.jpg" alt="">
+            <img  src="./image/makizushi.jpg" alt="">
             <h5 class="item-name">まきずし</h5>
           </a>
         </div>
         <div class="col-md-6">
           <a href="meatAndPotatoesQ.php" >
-            <img  src="./image/893995_s.jpg" alt="">
+            <img  src="./image/meatAndPotatoes.jpg" alt="">
             <h5 class="item-name">にくじゃが</h5>
           </a>
         </div>
         <div class="col-md-6">
           <a href="friedVegetablesQ.php" >
-            <img  src="./image/4467438_s.jpg" alt="">
+            <img  src="./image/friedVegetables.jpg" alt="">
             <h5 class="item-name">やさいいため</h5>
           </a>
         </div>
