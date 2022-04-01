@@ -5,30 +5,20 @@
   padding: 0;
   text-align: center;
 }
+
 body{
   width: 100%;
-  min-width: 1000px;
+  min-width: 610px; 
   margin-left: auto;
   margin-right: auto;
   -webkit-text-size-adjust: 100%;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   background-color: #FFFAF0;
 }
-.main{
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header h1{
+h1{
   text-align: center;
   color: orange;
   font-size: 70px;
-}
-header h1::after{
-  content: '〜お金の学び〜';
-  display: block;
-  font-size: 20px;
 }
 
 
@@ -48,19 +38,25 @@ h4{
   color: orange;
   text-align: center;
 }
-.item-name{
-  font-size: 40px;
-  color: rgb(253, 212, 136);
-}
 a{
   text-decoration: none;
 }
 img{
   width: 100%;
-  width: 400px;
   border-radius: 20%;
+  max-width: 500px;
 }
 
+.interval{
+  margin: 30px;
+}
+
+.item-name{
+  font-size: 40px;
+  color: rgb(253, 212, 136);
+  margin: 20px 0;
+  
+}
 .shop-item{
   display: inline-block;
   width: 40%;
@@ -71,13 +67,9 @@ img{
 footer{
   text-align: center;
   color: orange;
-  height: 100px;
+  height: 120px;
   background-color: rgba(241, 162, 44, 0.562);
 }
 footer h3{
   font-size: 40px;
-}
-footer p{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
 }
