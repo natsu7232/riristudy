@@ -13,7 +13,7 @@
   </head>
   <body>
     <?php include "header.html"?>
-    <div class="curry-main">
+    <div>
       <h2>今日はカレーライスだよ!</h2>
       <div class="shopping-list">
         <P>カレールー 1つ</P>
@@ -27,7 +27,7 @@
       <div class="shop-items">
         <form method="post" action="curryA.php">
         <?php foreach ($currys as $curry):?>
-          <div class="shop-item">
+          <div class="shop-item min-center">
             <img src="<?php echo $curry->getImage() ?>" class="">
             <h4><?php echo $curry->getName()?></h4>
             <p><?php echo $curry->getPrice()?>円</p>
