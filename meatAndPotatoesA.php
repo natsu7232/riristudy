@@ -53,7 +53,7 @@
       </div>
       <div class="end">
         <h2>ほかのおかいものもやってみてね</h2>
-        <input type="buttom" onclick="location.href='./shop.php'" value="おかいものへ" >
+        <input type="buttom" onclick="location.href='./index.php'" value="おかいものへ" >
         <input type="button" onclick="history.back()" value="もう一回する">
       </div>
     </div> 
